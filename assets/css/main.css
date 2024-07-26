@@ -1293,6 +1293,26 @@ section,
   margin-bottom: 10px; /* Margin below heading */
 }
 
+/* Changes for social media icons  */
+.social-links {
+  display: flex;
+  justify-content: center; /* Center the links horizontally */
+  gap: 10px; /* Space between the links */
+}
+
+.social-links a {
+  display: inline-flex; /* Keep the links as inline elements */
+  align-items: center; /* Center icons vertically */
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Use inherited color */
+}
+
+.social-links i {
+  font-size: 24px; /* Adjust size of icons */
+}
+
+
+
 .portfolio-info-custom p {
   margin-bottom: 15px; /* Margin below text */
 }
