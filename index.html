@@ -76,16 +76,41 @@
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
+<section id="hero" class="hero section dark-background" style="position: relative; overflow: hidden;">
 
-      <img src="assets\img\Ehtisham Khan Hero Image.png" alt="Main Image Ehtisham Khan" data-aos="fade-in" class="" loading="lazy">
+  <img src="assets/img/Ehtisham Khan Hero Image.png" alt="Main Image Ehtisham Khan" data-aos="fade-in" class="hero-image" loading="lazy" style="width: 100%; height: auto;">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <h2>Ehtisham Khan</h2>
-        <p>I'm <span class="typed" data-typed-items="Data Scientist!, Electrical Engineer!, Shopify Designer!, Freelancer!">Data Scientist</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
-      </div>
+  <div class="container" data-aos="fade-up" data-aos-delay="100" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: white;">
+    <h2>Ehtisham Khan</h2>
+    <p>I'm <span class="typed" data-typed-items="Data Scientist!, Electrical Engineer!, Shopify Designer!, Freelancer!">Data Scientist</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+  </div>
 
-    </section><!-- /Hero Section -->
+  <style>
+    /* Ensures the image covers the entire width of the section */
+    #hero {
+      position: relative;
+      overflow: hidden;
+    }
+
+    #hero img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Styles for mobile screens */
+    @media (max-width: 767px) {
+      #hero img {
+        height: auto; /* Maintain aspect ratio */
+        max-height: 650px; /* Set maximum height for mobile screens */
+        object-fit: cover; /* Cover the area while maintaining aspect ratio */
+      }
+    }
+  </style>
+
+</section><!-- /Hero Section -->
+
+
 
     <!-- Skills Section -->
 <section id="skills" class="skills section">
