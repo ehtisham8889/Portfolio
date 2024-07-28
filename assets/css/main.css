@@ -611,13 +611,13 @@ section,
 @media (max-width: 768px) {
   .hero {
     height: auto;
-    min-height: 70vh; /* Adjusts the height based on content */
+    min-height: 50vh; /* Adjusts the height based on content */
     padding-bottom: 20px; /* Add padding if needed */
   }
 
   .hero img {
     height: 600px; /* Adjusts the image height based on content */
-    max-height: 70vh; /* Adjust this value as needed */
+    max-height: 50vh; /* Adjust this value as needed */
     width: 100%;
     object-fit: cover;
   }
