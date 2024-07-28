@@ -609,6 +609,19 @@ section,
 }
 
 @media (max-width: 768px) {
+  .hero {
+    height: auto;
+    min-height: 70vh; /* Adjusts the height based on content */
+    padding-bottom: 20px; /* Add padding if needed */
+  }
+
+  .hero img {
+    height: 600px; /* Adjusts the image height based on content */
+    max-height: 70vh; /* Adjust this value as needed */
+    width: 100%;
+    object-fit: cover;
+  }
+
   .hero h2 {
     font-size: 32px;
   }
@@ -616,7 +629,13 @@ section,
   .hero p {
     font-size: 20px;
   }
+
+  .hero .container {
+    padding-top: 20px; /* Add some padding to ensure content is not cut off */
+  }
 }
+
+
 
 /*--------------------------------------------------------------
 # About Section
@@ -1328,6 +1347,7 @@ section,
   font-size: 16px;
   font-weight: 600;
 }
+
 
 
 /*--------------------------------------------------------------
