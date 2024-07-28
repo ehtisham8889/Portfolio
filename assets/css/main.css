@@ -637,35 +637,7 @@ section,
 
 
 
-/*--------------------------------------------------------------
-# About Section
---------------------------------------------------------------*/
-.about .content h2 {
-  font-weight: 700;
-  font-size: 24px;
-}
 
-.about .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.about .content ul li {
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-}
-
-.about .content ul strong {
-  margin-right: 10px;
-}
-
-.about .content ul i {
-  font-size: 16px;
-  margin-right: 5px;
-  color: var(--accent-color);
-  line-height: 0;
-}
 
 /*--------------------------------------------------------------
 # Stats Section
@@ -1348,7 +1320,14 @@ section,
   font-weight: 600;
 }
 
+/* About me Css */
 
+body{margin-top:20px}
+#about{padding:60px 0;background-color:#fff}
+.about-text{text-align:left; padding: 0 15px;} /* Add padding */
+.about-text h3{font-size:32px;font-weight:700;margin-bottom:20px;color:#050d18}
+.about-text p{line-height:1.6;color:#272829}
+.dark-color{color:#272829}
 
 /*--------------------------------------------------------------
 # Starter Section Section
